@@ -1,0 +1,52 @@
+{
+  "misraj_dococr": {
+    "cer": 0.3871,
+    "wer": 0.5626,
+    "n": 400
+  },
+  "sedra_handwritten": {
+    "cer": 0.4623,
+    "wer": 0.7509,
+    "n": 151
+  },
+  "arocrbench_arabicocr": {
+    "cer": 0.0346,
+    "wer": 0.1594,
+    "n": 50
+  },
+  "arocrbench_hindawi": {
+    "cer": 0.1327,
+    "wer": 0.3587,
+    "n": 200
+  },
+  "arocrbench_historyar": {
+    "cer": 0.3548,
+    "wer": 0.751,
+    "n": 200
+  },
+  "arocrbench_khattparagraph": {
+    "cer": 4.157,
+    "wer": 4.6756,
+    "n": 200
+  },
+  "arocrbench_patsocr": {
+    "cer": 0.0338,
+    "wer": 0.0987,
+    "n": 500
+  },
+  "arocrbench_isippt": {
+    "cer": 0.0839,
+    "wer": 0.268,
+    "n": 500
+  },
+  "arocrbench_synthesizear": {
+    "cer": 0.0663,
+    "wer": 0.2347,
+    "n": 500
+  },
+  "nakba_test": {
+    "cer": 0.1887,
+    "wer": 0.5437,
+    "n": 300
+  }
+}

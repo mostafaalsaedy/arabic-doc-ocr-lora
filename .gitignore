@@ -1,0 +1,48 @@
+# ---- secrets / environment -------------------------------------------------
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+
+# ---- dependencies / vendored code ------------------------------------------
+vendor/
+node_modules/
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+unsloth_compiled_cache*/
+
+# ---- weights, data, checkpoints (never commit) -----------------------------
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+*.parquet
+*.arrow
+*.sql
+*.zip
+*.tar
+*.tar.gz
+data/
+datasets/
+adapters/
+checkpoints/
+merged/
+base_model/
+release/
+storage/
+
+# ---- logs and scratch ------------------------------------------------------
+*.log
+*.err
+SESSION_ARCHIVE.txt
+
+# ---- os / editor -----------------------------------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

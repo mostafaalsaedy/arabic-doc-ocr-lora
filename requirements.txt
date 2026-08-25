@@ -1,0 +1,16 @@
+# Training stack. Install torch first, matched to your CUDA version, then the rest.
+# torch 2.11 + cu128 was used here; unsloth is required for the 12 GB QLoRA path.
+torch>=2.5
+torchvision
+transformers>=4.49
+datasets
+accelerate
+peft
+trl
+bitsandbytes
+unsloth
+unsloth-zoo
+safetensors
+pillow
+
+# tools/teds.py and tools/postprocess.py are pure stdlib and need none of the above.
